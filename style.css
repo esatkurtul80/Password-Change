@@ -1,0 +1,144 @@
+body,
+html {
+    height: 100%;
+}
+*:focus {
+    outline: none;
+}
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.auth {
+    background-image: url(auth-img.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.auth .inclusive {
+    margin: auto;
+    height: 700px;
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth .inclusive .head {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.auth .inclusive .head .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth .inclusive .head .profile img{
+    margin-top: 50px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0.25rem;
+    border: 1px solid #e6ebf5;
+}
+.auth .inclusive .bottom {
+    flex: 1;
+}
+.auth .inclusive .head .profile .text{
+    margin-top: 2px;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.auth .inclusive .head .entery{
+    margin-top: 10px;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth .inclusive .head .entery .old .labelold{
+    margin-top: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.25rem;
+}
+.auth .inclusive .head .entery .old input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.1rem solid #776e6e;
+    padding: 0 15px;
+}
+
+.auth .inclusive .head .entery .old input::placeholder{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.auth .inclusive .head .entery .new .labelold{
+    margin-top: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.25rem;
+}
+.auth .inclusive .head .entery .new input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.1rem solid #776e6e;
+    padding: 0 15px;
+}
+
+.auth .inclusive .head .entery .new input::placeholder{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.auth .inclusive .head .entery .confirm .labelold{
+    margin-top: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.25rem;
+}
+.auth .inclusive .head .entery .confirm input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.1rem solid #776e6e;
+    padding: 0 15px;
+}
+
+.auth .inclusive .head .entery .confirm input::placeholder{
+  font-family: 'Rajdhani', sans-serif;
+  color: gray;
+}
+.auth .inclusive .head .entery .acception{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.auth .inclusive .head .entery .acception button{
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.auth .inclusive .bottom{
+    text-align: center;
+    font-family: "Rajdhani",sans-serif; 
+}
+
+.auth .inclusive .bottom i{
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    color: gray;
+}
